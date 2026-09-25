@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oumy Khairy Sadio — Développeuse Web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="mono">OS</a>
+    <input type="checkbox" id="navToggle" style="display:none;">
+    <ul class="navlinks">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <label for="navToggle" class="burger"><span></span><span></span><span></span></label>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <svg class="sunmark" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="170" cy="170" r="80" stroke="#E8A33D" stroke-width="1.5"/>
+    <circle cx="170" cy="170" r="130" stroke="#D65C4A" stroke-width="1"/>
+    <circle cx="170" cy="170" r="160" stroke="#E8A33D" stroke-width="1" stroke-dasharray="2 8"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Dakar, Sénégal</div>
+    <h1>Oumy Khairy Sadio
+      <svg class="underline" viewBox="0 0 400 14" preserveAspectRatio="none"><path d="M2,8 Q100,14 200,7 T398,8"/></svg>
+    </h1>
+    <div class="role">Développeuse web en formation</div>
+    <p class="lede">Étudiante en Licence 3 Informatique d'Application Web, passionnée par le développement web, les algorithmes et l'informatique en général. Ce portfolio grandit avec chaque projet que je construis.</p>
+    <div class="links">
+      <a class="btn primary" href="#contact">Me contacter</a>
+      <a class="btn" href="https://github.com/oumina15" target="_blank" rel="noopener">Voir mon GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/oumy-khairy-sadio" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<section id="profil">
+  <div class="wrap profil">
+    <div class="section-head"><h2>Profil</h2></div>
+    <p>Je maîtrise HTML, CSS et JavaScript, et j'ai de bonnes bases en PHP, Bootstrap et MySQL. Curieuse et rigoureuse, j'aime comprendre comment les choses fonctionnent en profondeur avant de les construire — et je suis toujours partante pour apprendre une nouvelle techno.</p>
+  </div>
+</section>
+
+<section id="formation">
+  <div class="wrap">
+    <div class="section-head"><h2>Formation</h2></div>
+    <ul class="timeline">
+      <li><h3>Licence 3 en Informatique d'Application Web</h3><div class="meta">Université Cheikh Hamidou Kane (ex UVS)</div></li>
+      <li><h3>Formation Développeur Web — Backend</h3><div class="meta">Centre de formation Les Tutoriels</div></li>
+      <li><h3>Système Embarqué</h3><div class="meta">Centre de formation Les Tutoriels</div></li>
+    </ul>
+  </div>
+</section>
+
+<section id="competences">
+  <div class="wrap">
+    <div class="section-head"><h2>Compétences</h2></div>
+    <div class="skills-grid">
+      <div>
+        <div class="skill-group"><h3>Développement</h3>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span></div>
+        </div>
+        <div class="skill-group"><h3>Backend &amp; données</h3>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span></div>
+        </div>
+        <div class="skill-group"><h3>Outils</h3>
+          <div class="tags"><span class="tag">VS Code</span><span class="tag">XAMPP</span><span class="tag">Git / GitHub</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group"><h3>Bureautique</h3>
+          <div class="tags"><span class="tag">Word</span><span class="tag">Excel</span><span class="tag">Google Docs</span><span class="tag">Google Sheets</span></div>
+        </div>
+        <div class="skill-group"><h3>Langues</h3>
+          <div class="langues">
+            <div class="langue-row"><span class="label">Français</span><div class="bar"><span style="width:100%"></span></div></div>
+            <div class="langue-row"><span class="label">Wolof</span><div class="bar"><span style="width:100%"></span></div></div>
+            <div class="langue-row"><span class="label">Anglais</span><div class="bar"><span style="width:55%"></span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projets">
+  <div class="wrap">
+    <div class="section-head"><h2>Projets</h2></div>
+    <div class="empty-state">
+      <h3>Mes projets arrivent bientôt</h3>
+      <p>Cette section se remplira au fur et à mesure de mes réalisations — sites d'entraînement, projets de formation, et travaux personnels. Retrouvez déjà mon code sur GitHub.</p>
+      <a class="btn" href="https://github.com/oumina15" target="_blank" rel="noopener">github.com/oumina15</a>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="section-head"><h2>Contact</h2></div>
+    <div class="contact-grid">
+      <div class="contact-item"><div class="label">Adresse</div><span>Dakar, Sénégal</span></div>
+      <div class="contact-item"><div class="label">Téléphone</div><a href="tel:+221778620119">77 862 01 19</a></div>
+      <div class="contact-item"><div class="label">Email</div><a href="mailto:oumykhairys05@gmail.com">oumykhairys05@gmail.com</a></div>
+      <div class="contact-item"><div class="label">GitHub</div><a href="https://github.com/oumina15" target="_blank" rel="noopener">github.com/oumina15</a></div>
+      <div class="contact-item"><div class="label">LinkedIn</div><a href="https://www.linkedin.com/in/oumy-khairy-sadio" target="_blank" rel="noopener">oumy-khairy-sadio</a></div>
+    </div>
+    <div class="footnote">© 2026 Oumy Khairy Sadio</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
