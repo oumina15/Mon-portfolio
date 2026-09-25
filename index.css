@@ -105,6 +105,13 @@ section h2{ font-size:26px; }
 .empty-state h3{ font-size:19px; margin-bottom:8px; }
 .empty-state p{ color:var(--muted); margin:0 0 18px; }
 
+.project-card{ border:1px solid var(--line); border-radius:4px; padding:28px 28px 30px; max-width:var(--maxw); background:var(--card); }
+.project-card h3{ font-size:19px; margin-bottom:8px; }
+.project-card p{ color:var(--muted); margin:0 0 16px; }
+.project-card .tags{ margin-bottom:18px; }
+.project-card .btn{ margin-right:10px; }
+.more-soon{ color:var(--muted); font-size:14.5px; margin-top:20px; max-width:var(--maxw); }
+
 footer{ padding:60px 0 calc(76px + env(safe-area-inset-bottom,0px)); }
 .contact-grid{ display:flex; flex-wrap:wrap; gap:40px; }
 .contact-item .label{ font-size:13px; color:var(--clay); font-weight:600; margin-bottom:6px; }
